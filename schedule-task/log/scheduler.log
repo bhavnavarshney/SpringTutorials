@@ -1,0 +1,14 @@
+2021-08-03 22:11:13.888  INFO 59035 --- [Test worker] c.l.scheduler.SchedulerApplicationTests  : Starting SchedulerApplicationTests using Java 1.8.0_282 on INM1F52VZMD6M with PID 59035 (started by bvarshne in /Users/bvarshne/learning/SpringTutorials/schedule-task)
+2021-08-03 22:11:13.891  INFO 59035 --- [Test worker] c.l.scheduler.SchedulerApplicationTests  : No active profile set, falling back to default profiles: default
+2021-08-03 22:11:14.286  INFO 59035 --- [Test worker] c.l.scheduler.SchedulerApplicationTests  : Started SchedulerApplicationTests in 0.595 seconds (JVM running for 1.503)
+2021-08-03 22:11:18.218  INFO 59048 --- [main] c.l.scheduler.SchedulerApplication       : Starting SchedulerApplication using Java 1.8.0_282 on INM1F52VZMD6M with PID 59048 (/Users/bvarshne/learning/SpringTutorials/schedule-task/build/classes/java/main started by bvarshne in /Users/bvarshne/learning/SpringTutorials/schedule-task)
+2021-08-03 22:11:18.220  INFO 59048 --- [main] c.l.scheduler.SchedulerApplication       : No active profile set, falling back to default profiles: default
+2021-08-03 22:11:18.533  INFO 59048 --- [main] c.l.scheduler.SchedulerApplication       : Started SchedulerApplication in 0.572 seconds (JVM running for 0.834)
+2021-08-03 22:12:42.615  INFO 59161 --- [Test worker] c.l.scheduler.SchedulerApplicationTests  : Starting SchedulerApplicationTests using Java 1.8.0_282 on INM1F52VZMD6M with PID 59161 (started by bvarshne in /Users/bvarshne/learning/SpringTutorials/schedule-task)
+2021-08-03 22:12:42.616 DEBUG 59161 --- [Test worker] c.l.scheduler.SchedulerApplicationTests  : Running with Spring Boot v2.5.3, Spring v5.3.9
+2021-08-03 22:12:42.617  INFO 59161 --- [Test worker] c.l.scheduler.SchedulerApplicationTests  : No active profile set, falling back to default profiles: default
+2021-08-03 22:12:42.995  INFO 59161 --- [Test worker] c.l.scheduler.SchedulerApplicationTests  : Started SchedulerApplicationTests in 0.576 seconds (JVM running for 1.42)
+2021-08-03 22:12:46.919  INFO 59178 --- [main] c.l.scheduler.SchedulerApplication       : Starting SchedulerApplication using Java 1.8.0_282 on INM1F52VZMD6M with PID 59178 (/Users/bvarshne/learning/SpringTutorials/schedule-task/build/classes/java/main started by bvarshne in /Users/bvarshne/learning/SpringTutorials/schedule-task)
+2021-08-03 22:12:46.921 DEBUG 59178 --- [main] c.l.scheduler.SchedulerApplication       : Running with Spring Boot v2.5.3, Spring v5.3.9
+2021-08-03 22:12:46.921  INFO 59178 --- [main] c.l.scheduler.SchedulerApplication       : No active profile set, falling back to default profiles: default
+2021-08-03 22:12:47.297  INFO 59178 --- [main] c.l.scheduler.SchedulerApplication       : Started SchedulerApplication in 0.756 seconds (JVM running for 1.117)
