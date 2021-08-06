@@ -1,0 +1,32 @@
+plugins {
+    id 'org.springframework.boot' version '2.5.3'
+    id 'io.spring.dependency-management' version '1.0.11.RELEASE'
+    id 'java'
+    id 'war'
+}
+
+group = 'com.learning'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '1.8'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    providedRuntime 'org.springframework.boot:spring-boot-starter-tomcat'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+    //If you are building a web site for your business, you probably need to
+    // add some management services. Spring Boot provides several such services (such as health, audits, beans, and more) with its actuator module.
+
+    // There is also an /actuator/shutdown endpoint, but, by default, it is visible only through JMX. To enable it as an HTTP endpoint,
+    // add management.endpoint.shutdown.enabled=true to your application.properties file and expose it with
+    // management.endpoints.web.exposure.include=health,info,shutdown. However, you probably should not enable the shutdown endpoint for a publicly available application.
+    implementation 'org.springframework.boot:spring-boot-starter-actuator'
+}
+
+test {
+    useJUnitPlatform()
+}
